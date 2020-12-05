@@ -1,0 +1,23 @@
+.Square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    border: 3px solid grey;
+    user-select: none;
+    background-color: #2d6187;
+}
+
+.EmptySquare:hover{
+    background-color: #0A438B;
+}
+
+@media only screen and (max-width: 768px) {
+    .Square{
+        width: 75px;
+        height: 75px;
+        font-size: 50px;
+    }
+}
